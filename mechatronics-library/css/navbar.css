@@ -1,0 +1,142 @@
+.navbar {
+    background-color: #ffffff;
+    height: 60px;
+    padding: 0 20px;
+    box-shadow: 0 .4rem .8rem #0005;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    color: #d72323;
+    font-size: 24px;
+    transition: 0.3s color;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.logout-button {
+    background-color: #d72323;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.logout-button:hover {
+    background-color: #f86666;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: #727272;
+    font-weight: 400;
+    position: relative;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #000;
+}
+
+@media (min-width: 991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #d72323;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+    .nav-link:hover::before,
+    .nav-link.active::before {
+        width: 100%;
+        visibility: visible;
+    }
+}
+.search_box {
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+}
+.search_box input {
+    font-size: 14px;
+    visibility: 50%;
+    color: #444444;
+    padding-left: 20px;
+    border-radius: 50px 0 0 50px;
+    background: #e4e4e4;
+    display: flex;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+.search_box input:focus {
+    font-size: 14px;
+    visibility: 50%;
+    color: #444444;
+    padding-left: 20px;
+    border-radius: 50px 0 0 50px;
+    background: #e4e4e4;
+    display: flex;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+.search_box .box_btn {
+    border-radius: 0 50px 50px 0;
+    height: 40px;
+    background: #fa4a4a;
+}
+.search_box button{
+    height: 100%;
+    display: flex;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    background: #d72323;
+    justify-content: center;
+    align-items: center;
+}
+.search_box button:hover{
+    height: 100%;
+    border: none;
+    display: flex;
+    border-radius: 0 50px 50px 0;
+    background: #fa4a4a;
+    justify-content: center;
+    align-items: center;
+}
+.search_box img{
+    width: 25px;
+}
+.mechatronics {
+    font-weight: 600;
+    background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+@media (max-width: 600px) {
+    .navbar {
+        height: 50px;
+        padding: 0 5px;
+        box-shadow: 0 .4rem .8rem #0005;
+    }
+    
+}

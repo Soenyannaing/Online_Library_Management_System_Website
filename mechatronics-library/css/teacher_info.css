@@ -1,0 +1,81 @@
+.all_teacher_card {
+    display: flex;
+    padding: 20px;
+}
+.teacher_card {
+    display: inline-block;
+    justify-content: center;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 410px;
+    height: 250px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.teacher_card .img_decoration {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.teacher_card img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.teacher_card .teacher_name {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #111111;
+}
+.teacher_card .teacher_age {
+    margin-top: -15px;
+    font-size: 14px;
+    color: #2e2e2e;
+}
+.teacher_card .teacher_role {
+    margin-top: -15px;
+    font-size: 14px;
+    color: #3d3d3d;
+}
+.teacher_card .teacher_description {
+    margin-top: -15px;
+    font-size: 12px;
+    color: #3d3d3d;
+}
+.pagination a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 20px;
+    border: thin solid #555;
+    font-size: 14px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+.pagination a.active{
+    background-color: #d72323;
+    color: #000000;
+    border: thin solid #d72323;
+}
+.pagination a:focus{
+    border: 1px solid #da6262;
+}
+.pagination{
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.page-numbers{
+    display: inline-block;
+}
+@media (max-width: 600px) {
+    .teacher_card {
+        width: 340px;
+    }
+}

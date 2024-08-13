@@ -1,0 +1,163 @@
+.result{
+    padding: 20px 0 0 20px;
+    font-size: 24px;
+    color: #353535;
+}
+.all_book_card {
+    padding: 20px;
+}
+.card_display{
+    display: flex;
+}
+.book_card {
+    display: inline-block;
+    justify-content: center;
+    width: 150px;
+    height: 250px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+.book_card .img_decoration {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.book_card img{
+    width: 100%;
+    height: 170px;
+}
+.book_card .card-body{
+    width: 100%;
+}
+.book_card .card_title {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #353535;
+}
+.book_card .card_text {
+    margin-top: -15px;
+    font-size: 12px;
+    color: #5a5a5a;
+}
+.book_card a{
+    font-size: 14px;
+}
+.card-body .card-body-text{
+    height: 65px;
+}
+.category_card {
+    width: 150px;
+    font-size: 12px;
+}
+.open_download a{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 5px 10px;
+    color: #f0f0f0;
+    border-radius: 5px;
+}
+.open_download .btn_open {
+    background-color: #088395;
+}
+.open_download .btn_download {
+    background-color: #0F67B1;
+}
+.pagination{
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pagni ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.pagni ul li {
+    margin: 0 5px;
+}
+.pagni ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+    border: thin solid #555;
+    font-size: 14px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+.pagni ul li a:hover {
+    background-color: #ddd;
+}
+.pagni ul li a.active {
+    background-color: #d72323;
+    color: #000000;
+    border: thin solid #d72323;
+}
+.pagni ul li a.active {
+    border: 1px solid #da6262;
+}
+.dropdown{
+    width: 200px;
+    position: relative;
+    margin: 2em;
+    font-size: 12px;
+}
+@media (max-width: 600px) {
+    .result{
+        padding: 10px 0 0 10px;
+        font-size: 14px;
+        color: #353535;
+    }
+    .all_book_card {
+        padding: 10px;
+    }
+    .book_card {
+        width: 100px;
+        height: 175px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .book_card img{
+        height: 120px;
+    }
+    .card-body .card-body-text{
+        height: 40px;
+    }
+    .card-body-text .card_title {
+        margin-top: 5px;
+        font-size: 10px;
+        color: #242424;
+    }
+    .card-body-text .card_text {
+        margin-top: -15px;
+        font-size: 8px;
+        color: #5a5a5a;
+    }
+    .card-body a{
+        font-size: 8px;
+    }
+    .open_download a{
+        margin-top: 10px;
+        text-decoration: none;
+        font-size: 8px;
+        padding: 5px 10px;
+        color: #f0f0f0;
+        border-radius: 5px;
+    }
+    .open_download .btn_open {
+        background-color: #088395;
+    }
+    .open_download .btn_download {
+        background-color: #0F67B1;
+    }
+    .pagni ul li {
+        margin: 0 2px;
+    }
+    .pagni ul li a{
+        padding: 2px 7px;
+        font-size: 14px;
+        margin-right: 3px;
+        border-radius: 2px;
+    }
+    
+}

@@ -1,0 +1,208 @@
+.all_book_card {
+    padding: 20px;
+}
+.card_display{
+    display: flex;
+}
+.book_card {
+    display: inline-block;
+    justify-content: center;
+    width: 150px;
+    height: 250px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+.book_card .img_decoration {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.book_card img{
+    width: 100%;
+    height: 170px;
+}
+
+.card-body .card-body-text{
+    height: 65px;
+}
+.card-body-text .card_title {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #242424;
+}
+.card-body-text .card_text {
+    margin-top: -15px;
+    font-size: 12px;
+    color: #5a5a5a;
+}
+.card-body a{
+    font-size: 14px;
+}
+.category_card {
+    width: 150px;
+    font-size: 12px;
+}
+.open_download a{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 5px 10px;
+    color: #f0f0f0;
+    border-radius: 5px;
+}
+.open_download .btn_open {
+    background-color: #088395;
+}
+.open_download .btn_download {
+    background-color: #0F67B1;
+}
+
+.pagination{
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pagni ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.pagni ul li {
+    margin: 0 5px;
+}
+.pagni ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+    border: thin solid #555;
+    font-size: 14px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+.pagni ul li.active a {
+    background-color: #ddd;
+}
+.pagni ul li.active a {
+    background-color: #d72323;
+    color: #000000;
+    border: thin solid #d72323;
+}
+.pagni ul li.active a {
+    border: 1px solid #da6262;
+}
+
+/* css for category & year */
+.tab {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.dropbtn {
+    width: 100%;
+    background-color: #581b98;
+    color: white;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-bottom: 8px;
+    padding-right: auto;
+    font-size: 12px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    font-size: 12px;
+    background-color: #fff;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown-content a:hover {background-color: #ddd;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {background-color: #7f3bc7;}
+
+@media (max-width: 600px) {
+    .all_book_card {
+        padding: 10px;
+    }
+    .book_card {
+        width: 100px;
+        height: 175px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .book_card img{
+        height: 120px;
+    }
+    
+    .card-body .card-body-text{
+        height: 40px;
+    }
+    .card-body-text .card_title {
+        margin-top: 5px;
+        font-size: 10px;
+        color: #242424;
+    }
+    .card-body-text .card_text {
+        margin-top: -15px;
+        font-size: 8px;
+        color: #5a5a5a;
+    }
+    .card-body a{
+        font-size: 8px;
+    }
+    .open_download a{
+        margin-top: 10px;
+        text-decoration: none;
+        font-size: 8px;
+        padding: 5px 10px;
+        color: #f0f0f0;
+        border-radius: 5px;
+    }
+    .open_download .btn_open {
+        background-color: #088395;
+    }
+    .open_download .btn_download {
+        background-color: #0F67B1;
+    }
+    
+    .pagination a{
+        padding: 2px 7px;
+        font-size: 14px;
+        margin-right: 5px;
+        border-radius: 2px;
+    }
+    .tab {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .pagni ul li {
+        margin: 0 2px;
+    }
+    .pagni ul li a{
+        padding: 2px 7px;
+        font-size: 14px;
+        margin-right: 3px;
+        border-radius: 2px;
+    }
+}

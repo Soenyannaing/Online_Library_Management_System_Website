@@ -1,0 +1,16 @@
+@import url(C:\xampp\htdocs\mechatronics-library\font\Poppins);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+}
+body {
+    background: url(../img/hrrr.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
